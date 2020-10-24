@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  font-size: large;
+}
+
+header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  float: left;
+  padding: 8px;
+}
+
+.header-name {
+  float: left;
+  padding-right: 20px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  padding: 5px 15px;
+}
+
+.top-main {
+  background-image: url(https://www.trac.astra.co.id/static/media/BusServicesBanner.e2b0753c.png);
+  background-size: cover;
+  padding: 180px 0 50px 0;
+  color: white;
+}
+
+.main1 {
+  font-size: 100px;
+}
+
+main {
+  padding-left: 10px;
+}
+
+.message {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  list-style: none;
+  color: #fff;
+}
+
+.contact-form {
+  padding: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
