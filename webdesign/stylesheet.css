@@ -66,6 +66,17 @@ main {
   padding-left: 10px;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
 .message {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
